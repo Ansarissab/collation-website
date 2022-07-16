@@ -10,14 +10,15 @@ html{
 }
 
 @font-face {
-  font-family: "BebasNeue-Regular";
+  font-family: "BebasNeue-Regular" ;
   src: url(../assets/Bebas_Neue/BebasNeue-Regular.ttf);
 }
 
-body {
-  overflow-x: hidden;
-  overflow-y: hidden;
+@font-face {
+  font-family: "Oswald-VariableFont_wght";
+  src: url(../assets/Oswald/Oswald-VariableFont_wght.ttf);
 }
+
 
 .hero-section {
   background: url('../assets/hero-image.png');
@@ -25,32 +26,109 @@ body {
   background-repeat: no-repeat;
 
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+}
+
+.hero-section-nav, .history-section-nav{
+  nav {
+    display: flex;
+    justify-content: space-around;
+
+    .nav-icon{
+      padding: 0.8rem;
+    }
+
+    ul {
+      display: flex;
+      list-style: none;
+
+      li {
+        padding: 1rem;
+        color: white;
+        font-size: 0.5rem;
+        font-weight: bold;
+        font-style: italic;
+        text-decoration: underline;
+        text-underline-offset: 0.1rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+.history-section {
+  background: url('../assets/history-image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  min-height: 120vh;
 
   .hero-section-nav{
-    nav {
-      display: flex;
-      justify-content: space-around;
 
-      .nav-icon{
-        padding: 0.8rem;
+    .nav-icon {
+      display: flex;
+      padding: 0.3rem;
+
+      img {
+        border-radius: 50%;
+        border: 1px solid #414f6b;
       }
 
-      ul {
-        display: flex;
-        list-style: none;
+      h5 {
+        text-transform: uppercase;
+        padding-left: 0.3rem;
+        font-family: "BebasNeue-Regular";
 
-        li {
-          padding: 1rem;
-          color: white;
-          font-size: 0.5rem;
-          font-weight: bold;
-          font-style: italic;
-          text-decoration: underline;
-          text-underline-offset: 0.1rem;
-          text-transform: uppercase;
+        span.first-part {
+          color: black;
+          letter-spacing: 0.05cm;
+        }
+
+        span.second-part {
+          color: #414f6b;
+          letter-spacing: 0.07cm;
         }
       }
+    }
+    nav {
+      background-color: white;
+
+      li {
+        color: #414f6b;
+      }
+    }
+  }
+
+  main {
+    font-family: 'Oswald-VariableFont_wght';
+    width: 65%;
+    margin: 3rem auto;
+
+
+    h1 {
+      font-size: 5rem;
+      font-weight: bold;
+      color: #414f6b;
+      line-height: 1.2;
+
+
+      span.first-part {
+        opacity: 0.5;
+      }
+
+      span.second-part {
+        position: relative;
+        font-size: 1.5rem;
+        left: -1.1rem;
+        bottom: 1.2rem;
+
+      }
+    }
+
+    p {
+      font-family: 'Lato';
+      font-size: 0.7rem;
     }
   }
 }
