@@ -4,6 +4,45 @@ body, html, * {
   margin: 0;
 }
 
-.hero-section .nav img {
+html {
+  font-size: 24px;
+  font-family: "Lato";
+}
+
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url(../assets/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.hero-section {
+  background: url("../assets/hero-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
   height: 100vh;
+}
+.hero-section .hero-section-nav nav {
+  display: flex;
+  justify-content: space-around;
+}
+.hero-section .hero-section-nav nav .nav-icon {
+  padding: 0.8rem;
+}
+.hero-section .hero-section-nav nav ul {
+  display: flex;
+  list-style: none;
+}
+.hero-section .hero-section-nav nav ul li {
+  padding: 1rem;
+  color: white;
+  font-size: 0.5rem;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  text-underline-offset: 0.1rem;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
