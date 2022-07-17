@@ -101,38 +101,6 @@ html{
     }
   }
 
-  main {
-    font-family: 'Oswald-VariableFont_wght';
-    width: 65%;
-    margin: 3rem auto;
-
-
-    h1 {
-      font-size: 5rem;
-      font-weight: bold;
-      color: #414f6b;
-      line-height: 1.2;
-
-
-      span.first-part {
-        opacity: 0.5;
-      }
-
-      span.second-part {
-        position: relative;
-        font-size: 1.5rem;
-        left: -1.1rem;
-        bottom: 1.2rem;
-
-      }
-    }
-
-    p {
-      font-family: 'Lato';
-      font-size: 0.7rem;
-    }
-  }
-
   .carousel {
     background: url(../assets/carousel-background.png);
     position: absolute;
@@ -170,6 +138,69 @@ html{
         opacity: 1;
       }
     }
+  }
+}
 
+
+.history-section {
+  main {
+    font-family: 'Oswald-VariableFont_wght';
+    width: 65%;
+    margin: 3rem auto;
+
+
+    h1 {
+      font-size: 5rem;
+      font-weight: bold;
+      color: #414f6b;
+      line-height: 1.2;
+
+
+      span.first-part {
+        opacity: 0.5;
+      }
+
+      span.second-part {
+        position: relative;
+        font-size: 1.5rem;
+        left: -1.1rem;
+        bottom: 1.2rem;
+      }
+    }
+
+    p {
+      font-family: 'Lato';
+      font-size: 0.7rem;
+    }
+  }
+}
+
+.climb-section {
+
+  main {
+    display: flex;
+    margin: 0.5rem auto;
+    width: 65%;
+
+      p.main-content {
+      font-family: 'Oswald-VariableFont_wght';
+        font-size: 5rem;
+        font-weight: bold;
+        color: #414f6b;
+        line-height: 0.3;
+
+        span.second-part {
+          position: relative;
+          left: 5.1rem;
+          bottom: 4.2rem;
+          font-size: 1.5rem;
+        }
+      }
+
+    p {
+      margin: 3rem 0 0 4rem;
+      font-size: 0.7rem;
+      font-family: 'Lato';
+    }
   }
 }
