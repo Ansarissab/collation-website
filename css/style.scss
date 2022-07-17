@@ -60,6 +60,7 @@ html{
   background: url('../assets/history-image.png');
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 
   width: 100%;
   min-height: 120vh;
@@ -130,5 +131,45 @@ html{
       font-family: 'Lato';
       font-size: 0.7rem;
     }
+  }
+
+  .carousel {
+    background: url(../assets/carousel-background.png);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    .gallery {
+      max-width: 70%;
+      margin: 1rem auto 0;
+      display: flex;
+      justify-content: center;
+
+      &-image {
+        margin: 0.3rem;
+
+        img {
+          width: 8rem;
+        }
+
+      }
+    }
+
+    .dots {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 0.1rem;
+
+      .ellipse-image {
+        width: 0.3rem;
+        opacity: 0.5;
+        margin-right: 0.1rem;
+      }
+
+      .active {
+        opacity: 1;
+      }
+    }
+
   }
 }
