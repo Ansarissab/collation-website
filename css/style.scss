@@ -29,12 +29,14 @@ html{
   min-height: 100vh;
 }
 
-.hero-section-nav, .history-section-nav{
+.hero-section-nav,
+.history-section-nav,
+.footer-section-nav{
   nav {
     display: flex;
     justify-content: space-around;
 
-    .nav-icon{
+    .nav-icon {
       padding: 0.8rem;
     }
 
@@ -281,4 +283,48 @@ html{
 
 .shown {
   display: block;
+}
+
+
+.footer-section-nav {
+
+  nav {
+    background-color: #414f6b;
+    color: #afb3bd;
+
+    .nav-icon {
+      display: flex;
+      padding: 0.3rem;
+      opacity: 0.6;
+
+      img {
+        border-radius: 50%;
+        border: 1px solid #414f6b;
+      }
+
+      h5 {
+        text-transform: uppercase;
+        padding-left: 0.3rem;
+        font-family: "BebasNeue-Regular";
+
+        span.first-part {
+          color: #afb3bd;
+          letter-spacing: 0.05cm;
+        }
+
+        span.second-part {
+          color: #afb3bd;
+          letter-spacing: 0.07cm;
+        }
+      }
+    }
+
+    li {
+      color: #414f6b;
+    }
+  }
+
+    .copyrights{
+      opacity: 0.6;
+    }
 }

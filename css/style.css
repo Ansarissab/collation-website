@@ -25,18 +25,26 @@ html {
   min-height: 100vh;
 }
 
-.hero-section-nav nav, .history-section-nav nav {
+.hero-section-nav nav,
+.history-section-nav nav,
+.footer-section-nav nav {
   display: flex;
   justify-content: space-around;
 }
-.hero-section-nav nav .nav-icon, .history-section-nav nav .nav-icon {
+.hero-section-nav nav .nav-icon,
+.history-section-nav nav .nav-icon,
+.footer-section-nav nav .nav-icon {
   padding: 0.8rem;
 }
-.hero-section-nav nav ul, .history-section-nav nav ul {
+.hero-section-nav nav ul,
+.history-section-nav nav ul,
+.footer-section-nav nav ul {
   display: flex;
   list-style: none;
 }
-.hero-section-nav nav ul li, .history-section-nav nav ul li {
+.hero-section-nav nav ul li,
+.history-section-nav nav ul li,
+.footer-section-nav nav ul li {
   padding: 1rem;
   color: white;
   font-size: 0.5rem;
@@ -225,4 +233,37 @@ html {
 
 .shown {
   display: block;
+}
+
+.footer-section-nav nav {
+  background-color: #414f6b;
+  color: #afb3bd;
+}
+.footer-section-nav nav .nav-icon {
+  display: flex;
+  padding: 0.3rem;
+  opacity: 0.6;
+}
+.footer-section-nav nav .nav-icon img {
+  border-radius: 50%;
+  border: 1px solid #414f6b;
+}
+.footer-section-nav nav .nav-icon h5 {
+  text-transform: uppercase;
+  padding-left: 0.3rem;
+  font-family: "BebasNeue-Regular";
+}
+.footer-section-nav nav .nav-icon h5 span.first-part {
+  color: #afb3bd;
+  letter-spacing: 0.05cm;
+}
+.footer-section-nav nav .nav-icon h5 span.second-part {
+  color: #afb3bd;
+  letter-spacing: 0.07cm;
+}
+.footer-section-nav nav li {
+  color: #414f6b;
+}
+.footer-section-nav .copyrights {
+  opacity: 0.6;
 }/*# sourceMappingURL=style.css.map */
