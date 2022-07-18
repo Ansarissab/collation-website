@@ -1,16 +1,18 @@
-body, html, *{
+body,
+html,
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-html{
+html {
   font-size: 24px;
   font-family: "Lato";
 }
 
 @font-face {
-  font-family: "BebasNeue-Regular" ;
+  font-family: "BebasNeue-Regular";
   src: url(../assets/Bebas_Neue/BebasNeue-Regular.ttf);
 }
 
@@ -19,9 +21,8 @@ html{
   src: url(../assets/Oswald/Oswald-VariableFont_wght.ttf);
 }
 
-
 .hero-section {
-  background: url('../assets/hero-image.png');
+  background: url("../assets/hero-image.png");
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -31,7 +32,7 @@ html{
 
 .hero-section-nav,
 .history-section-nav,
-.footer-section-nav{
+.footer-section-nav {
   nav {
     display: flex;
     justify-content: space-around;
@@ -59,7 +60,7 @@ html{
 }
 
 .history-section {
-  background: url('../assets/history-image.png');
+  background: url("../assets/history-image.png");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -67,8 +68,7 @@ html{
   width: 100%;
   min-height: 120vh;
 
-  .hero-section-nav{
-
+  .hero-section-nav {
     .nav-icon {
       display: flex;
       padding: 0.3rem;
@@ -121,7 +121,6 @@ html{
         img {
           width: 8rem;
         }
-
       }
     }
 
@@ -143,20 +142,17 @@ html{
   }
 }
 
-
 .history-section {
   main {
-    font-family: 'Oswald-VariableFont_wght';
+    font-family: "Oswald-VariableFont_wght";
     width: 65%;
     margin: 3rem auto;
-
 
     h1 {
       font-size: 5rem;
       font-weight: bold;
       color: #414f6b;
       line-height: 1.2;
-
 
       span.first-part {
         opacity: 0.5;
@@ -171,40 +167,38 @@ html{
     }
 
     p {
-      font-family: 'Lato';
+      font-family: "Lato";
       font-size: 0.7rem;
     }
   }
 }
 
 .climb-section {
-
   main {
     display: flex;
     margin: 0.5rem auto;
     width: 65%;
 
-      p.main-content {
-        font-family: 'Oswald-VariableFont_wght';
-        font-size: 5rem;
-        font-weight: bold;
-        color: #414f6b;
-        line-height: 0.3;
-        margin: 1.5rem 0 0 1rem;
+    p.main-content {
+      font-family: "Oswald-VariableFont_wght";
+      font-size: 5rem;
+      font-weight: bold;
+      color: #414f6b;
+      line-height: 0.3;
+      margin: 1.5rem 0 0 1rem;
 
-
-        span.second-part {
-          position: relative;
-          left: 5.1rem;
-          bottom: 4.2rem;
-          font-size: 1.5rem;
-        }
+      span.second-part {
+        position: relative;
+        left: 5.1rem;
+        bottom: 4.2rem;
+        font-size: 1.5rem;
       }
+    }
 
     p.description {
       margin: 1.5rem 0 0 3rem;
       font-size: 0.6rem;
-      font-family: 'Lato';
+      font-family: "Lato";
     }
   }
 }
@@ -213,7 +207,7 @@ html{
   .mountain-section-nav {
     background-color: #414f6b;
     color: #afb3bd;
-    font-family: 'Oswald-VariableFont_wght';
+    font-family: "Oswald-VariableFont_wght";
 
     ul {
       list-style: none;
@@ -250,7 +244,7 @@ html{
 
   main {
     .schedule {
-      background-color: rgba(255,255,255, 0.5);
+      background-color: rgba(255, 255, 255, 0.5);
       position: relative;
       top: 25%;
       left: 22%;
@@ -258,7 +252,7 @@ html{
       padding: 0.7rem;
 
       .heading {
-        font-family: 'Oswald-VariableFont_wght';
+        font-family: "Oswald-VariableFont_wght";
         text-transform: uppercase;
         color: #414f6b;
       }
@@ -267,7 +261,7 @@ html{
         list-style: none;
 
         li {
-          font-family: 'Lato';
+          font-family: "Lato";
           font-size: 0.5rem;
         }
 
@@ -287,9 +281,7 @@ html{
   display: block;
 }
 
-
 .footer-section-nav {
-
   nav {
     background-color: #414f6b;
     color: #afb3bd;
@@ -326,7 +318,7 @@ html{
     }
   }
 
-    .copyrights{
-      opacity: 0.6;
-    }
+  .copyrights {
+    opacity: 0.6;
+  }
 }

@@ -1,135 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/flickity.pkgd.js"></script>
 
-    <title>LosAngeles Mountains</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="./js/flickity.pkgd.js"></script>
 
-  <body>
-    <section class="hero-section">
-      <div class="hero-section-nav">
-        <nav>
-          <div class="nav-icon">
-            <img src="./assets/nav-icon.png" alt="Herou section image">
-          </div>
+  <title>LosAngeles Mountains</title>
+</head>
+
+<body>
+  <section class="hero-section">
+    <div class="hero-section-nav">
+      <nav>
+        <div class="nav-icon">
+          <img src="./assets/nav-icon.png" alt="Herou section image" />
+        </div>
+        <div>
+          <ul>
+            <li>01. History</li>
+            <li>02. Team</li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <section class="history-section">
+    <div class="hero-section-nav">
+      <nav>
+        <div class="nav-icon">
           <div>
-            <ul>
-              <li>01. History</li>
-              <li>02. Team</li>
-            </ul>
-        </div>
-        </nav>
-      </div>
-    </section>
-
-    <section class="history-section">
-      <div class="hero-section-nav">
-        <nav>
-          <div class="nav-icon">
-            <div>
-              <img src="./assets/nav-icon.png" alt="Herou section image">
-            </div>
-            <h5><span class="first-part">LosAngeles</span><br><span class="second-part">Mountains</span></h5>
+            <img src="./assets/nav-icon.png" alt="Herou section image" />
           </div>
+          <h5>
+            <span class="first-part">LosAngeles</span><br /><span class="second-part">Mountains</span>
+          </h5>
+        </div>
+        <div>
+          <ul>
+            <li>01. History</li>
+            <li>02. Team</li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <main>
+      <h1>
+        <span class="first-part">01<span class="dot">.</span></span><span class="second-part"> History</span>
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quasi.
+        Optio et aliquid vitae maxime quisquam unde sunt impedit excepturi,
+        minus, sed architecto magni perferendis at delectus, dolore corporis
+        voluptates!
+      </p>
+    </main>
+
+    <div class="carousel">
+      <div class="gallery">
+        <div class="gallery-image">
+          <img src="/assets/carousel-img-1.png" />
+        </div>
+        <div class="gallery-image">
+          <img src="/assets/carousel-img-2.png" />
+        </div>
+        <div class="gallery-image">
+          <img src="/assets/carousel-img-1.png" />
+        </div>
+        <div class="gallery-image">
+          <img src="/assets/carousel-img-2.png" />
+        </div>
+      </div>
+      <div class="dots">
+        <div class="ellipse-image active">
+          <img src="/assets/ellipse.png" />
+        </div>
+        <div class="ellipse-image"><img src="/assets/ellipse.png" /></div>
+        <div class="ellipse-image"><img src="/assets/ellipse.png" /></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="climb-section">
+    <main>
+      <p class="main-content">
+        <span class="first-part">02<span class="dot">.</span></span><span class="second-part"> Climb</span>
+      </p>
+      <p class="description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quasi.
+        Optio et aliquid vitae maxime quisquam unde sunt impedit excepturi.
+      </p>
+    </main>
+  </section>
+
+  <section class="mountain-tab-section">
+    <div class="mountain-section-nav">
+      <nav>
+        <ul>
+          <li class="active"><span id="mountain1-btn">Mountain 1</span></li>
+          <li><span id="mountain2-btn">Mountain 2</span></li>
+        </ul>
+      </nav>
+    </div>
+
+    <main class="mountain1">
+      <div class="schedule">
+        <h5 class="heading">Schedule</h5>
+        <ul>
+          <li>
+            <span class="schedule-date">25 Nov 2016</span>
+            <span class="schedule-venue">Vestibulum viverra</span>
+          </li>
+          <li>
+            <span class="schedule-date">28 Nov 2016</span>
+            <span class="schedule-venue">Vestibulum viverra</span>
+          </li>
+          <br />
+          <li>
+            <span class="schedule-date">18 Dec 2016</span>
+            <span class="schedule-venue">Vestibulum viverra</span>
+          </li>
+          <br />
+          <li>
+            <span class="schedule-date">7 Jan 2017</span>
+            <span class="schedule-venue">Vestibulum viverra</span>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <main class="mountain2 hidden">
+      <div class="schedule">
+        <h5 class="heading">Schedule</h5>
+        <ul>
+          <li>
+            <span class="schedule-date">17 Nov 2016</span>
+            <span class="schedule-venue">Vestibulum viverra</span>
+          </li>
+          <br />
+          <li>
+            <span class="schedule-date">13 Dec 2016</span>
+            <span class="schedule-venue">Vestibulum viverra</span>
+          </li>
+          <li>
+            <span class="schedule-date">28 Dec 2016</span>
+            <span class="schedule-venue">Vestibulum viverra</span>
+          </li>
+          <br />
+          <li>
+            <span class="schedule-date">9 Feb 2017</span>
+            <span class="schedule-venue">Vestibulum viverra</span>
+          </li>
+        </ul>
+      </div>
+    </main>
+  </section>
+
+  <footer>
+    <div class="footer-section-nav">
+      <nav>
+        <div class="nav-icon">
           <div>
-            <ul>
-              <li>01. History</li>
-              <li>02. Team</li>
-            </ul>
-        </div>
-        </nav>
-      </div>
-
-      <main>
-        <h1><span class="first-part">01<span class="dot">.</span></span><span class="second-part"> History</span></h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quasi. Optio et aliquid vitae maxime quisquam unde sunt impedit excepturi, minus, sed architecto magni perferendis at delectus, dolore corporis voluptates!</p>
-      </main>
-
-
-      <div class="carousel">
-        <div class="gallery">
-          <div class="gallery-image"><img src="/assets/carousel-img-1.png"></div>
-          <div class="gallery-image"><img src="/assets/carousel-img-2.png"></div>
-          <div class="gallery-image"><img src="/assets/carousel-img-1.png"></div>
-          <div class="gallery-image"><img src="/assets/carousel-img-2.png"></div>
-        </div>
-        <div class="dots">
-          <div class="ellipse-image active"><img src="/assets/ellipse.png"></div>
-          <div class="ellipse-image"><img src="/assets/ellipse.png"></div>
-          <div class="ellipse-image"><img src="/assets/ellipse.png"></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="climb-section">
-      <main>
-        <p class="main-content"><span class="first-part">02<span class="dot">.</span></span><span class="second-part"> Climb</span></p>
-        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quasi. Optio et aliquid vitae maxime quisquam unde sunt impedit excepturi.</p>
-      </main>
-    </section>
-
-    <section class="mountain-tab-section">
-      <div class="mountain-section-nav">
-        <nav>
-          <ul>
-            <li class="active"><span id="mountain1-btn">Mountain 1</span></li>
-            <li><span id="mountain2-btn">Mountain 2</span></li>
-          </ul>
-        </nav>
-      </div>
-
-      <main class="mountain1">
-        <div class="schedule">
-          <h5 class="heading">Schedule</h5>
-          <ul>
-            <li><span class="schedule-date">25 Nov 2016</span> <span class="schedule-venue">Vestibulum viverra</span></li>
-            <li><span class="schedule-date">28 Nov 2016</span> <span class="schedule-venue">Vestibulum viverra</span></li>
-            <br>
-            <li><span class="schedule-date">18 Dec 2016</span> <span class="schedule-venue">Vestibulum viverra</span></li>
-            <br>
-            <li><span class="schedule-date">7 Jan 2017</span> <span class="schedule-venue">Vestibulum viverra</span></li>
-          </ul>
-        </div>
-      </main>
-
-      <main class="mountain2 hidden">
-        <div class="schedule">
-          <h5 class="heading">Schedule</h5>
-          <ul>
-            <li><span class="schedule-date">17 Nov 2016</span> <span class="schedule-venue">Vestibulum viverra</span></li>
-            <br>
-            <li><span class="schedule-date">13 Dec 2016</span> <span class="schedule-venue">Vestibulum viverra</span></li>
-            <li><span class="schedule-date">28 Dec 2016</span> <span class="schedule-venue">Vestibulum viverra</span></li>
-            <br>
-            <li><span class="schedule-date">9 Feb 2017</span> <span class="schedule-venue">Vestibulum viverra</span></li>
-          </ul>
-        </div>
-      </main>
-    </section>
-
-
-    <footer>
-      <div class="footer-section-nav">
-        <nav>
-          <div class="nav-icon">
-            <div>
-              <img src="./assets/nav-icon.png" alt="Herou section image">
-            </div>
-            <h5><span class="first-part">LosAngeles</span><br><span class="second-part">Mountains</span></h5>
+            <img src="./assets/nav-icon.png" alt="Herou section image" />
           </div>
-          <div class="copyrights">
-            <ul>
-              <li>Copyright 2016. All rights reserved.</li>
-            </ul>
+          <h5>
+            <span class="first-part">LosAngeles</span><br /><span class="second-part">Mountains</span>
+          </h5>
         </div>
-        </nav>
-      </div>
-    </footer>
-    <script src="./js/index.js"></script>
-  </body>
+        <div class="copyrights">
+          <ul>
+            <li>Copyright 2016. All rights reserved.</li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </footer>
+  <script src="./js/index.js"></script>
+</body>
+
 </html>
