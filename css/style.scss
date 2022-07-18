@@ -183,7 +183,7 @@ html{
     width: 65%;
 
       p.main-content {
-      font-family: 'Oswald-VariableFont_wght';
+        font-family: 'Oswald-VariableFont_wght';
         font-size: 5rem;
         font-weight: bold;
         color: #414f6b;
@@ -201,6 +201,35 @@ html{
       margin: 3rem 0 0 4rem;
       font-size: 0.7rem;
       font-family: 'Lato';
+    }
+  }
+}
+
+.mountain-tab-section {
+  .mountain-section-nav {
+    background-color: #414f6b;
+    color: #afb3bd;
+    font-family: 'Oswald-VariableFont_wght';
+
+    ul {
+      list-style: none;
+      display: flex;
+      width: 60%;
+      margin: 0 auto;
+
+      li {
+        margin-right: 0.3rem;
+        padding: 0.175rem;
+        font-size: 0.7rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: underline;
+      }
+
+      li.active {
+        background-color: #afb3bd;
+        color: #414f6b;
+      }
     }
   }
 }

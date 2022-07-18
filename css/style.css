@@ -161,4 +161,28 @@ html {
   margin: 3rem 0 0 4rem;
   font-size: 0.7rem;
   font-family: "Lato";
+}
+
+.mountain-tab-section .mountain-section-nav {
+  background-color: #414f6b;
+  color: #afb3bd;
+  font-family: "Oswald-VariableFont_wght";
+}
+.mountain-tab-section .mountain-section-nav ul {
+  list-style: none;
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+}
+.mountain-tab-section .mountain-section-nav ul li {
+  margin-right: 0.3rem;
+  padding: 0.175rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.mountain-tab-section .mountain-section-nav ul li.active {
+  background-color: #afb3bd;
+  color: #414f6b;
 }/*# sourceMappingURL=style.css.map */
