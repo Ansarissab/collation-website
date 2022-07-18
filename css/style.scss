@@ -224,6 +224,7 @@ html{
         font-weight: bold;
         text-transform: uppercase;
         text-decoration: underline;
+        cursor: pointer;
       }
 
       li.active {
@@ -232,4 +233,52 @@ html{
       }
     }
   }
+
+  main.mountain1 {
+    background: url(../assets/mountain1.png);
+    height: 80vh;
+  }
+
+  main.mountain2 {
+    background: url(../assets/mountain2.png);
+    height: 80vh;
+  }
+
+  main {
+    .schedule {
+      background-color: rgba(255,255,255, 0.5);
+      position: relative;
+      top: 25%;
+      left: 22%;
+      width: 10rem;
+      padding: 0.7rem;
+
+      .heading {
+        font-family: 'Oswald-VariableFont_wght';
+        text-transform: uppercase;
+        color: #414f6b;
+      }
+
+      ul {
+        list-style: none;
+
+        li {
+          font-family: 'Lato';
+          font-size: 0.5rem;
+        }
+
+        .schedule-date {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.shown {
+  display: block;
 }

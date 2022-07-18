@@ -181,8 +181,48 @@ html {
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: underline;
+  cursor: pointer;
 }
 .mountain-tab-section .mountain-section-nav ul li.active {
   background-color: #afb3bd;
   color: #414f6b;
+}
+.mountain-tab-section main.mountain1 {
+  background: url(../assets/mountain1.png);
+  height: 80vh;
+}
+.mountain-tab-section main.mountain2 {
+  background: url(../assets/mountain2.png);
+  height: 80vh;
+}
+.mountain-tab-section main .schedule {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  top: 25%;
+  left: 22%;
+  width: 10rem;
+  padding: 0.7rem;
+}
+.mountain-tab-section main .schedule .heading {
+  font-family: "Oswald-VariableFont_wght";
+  text-transform: uppercase;
+  color: #414f6b;
+}
+.mountain-tab-section main .schedule ul {
+  list-style: none;
+}
+.mountain-tab-section main .schedule ul li {
+  font-family: "Lato";
+  font-size: 0.5rem;
+}
+.mountain-tab-section main .schedule ul .schedule-date {
+  margin-right: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.shown {
+  display: block;
 }/*# sourceMappingURL=style.css.map */
